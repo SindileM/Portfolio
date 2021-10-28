@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylsheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src='main.js'></script>
+    <!-- <script src='main.js'></script> -->
 </head>
 <body>
     <style>
@@ -22,7 +22,7 @@
     <!--Landing Page-->
     <section class="hero">
       <div class="hero-inner">
-          <h1>Full Stack Developer</h1>
+          <h1>Aspiring Full Stack Developer</h1>
           <!-- <a href="https://example.com/" class="btn">Go ahead...</a> -->
       </div>
   </section>
@@ -243,7 +243,12 @@
                 <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Alex" />
               </div>
                 <label for="phone" class="form-label">Phone</label>
-                <div class=""></div>
+                <div class="mb-4 input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-person-fill text-secondary"></i>
+                  </span>
+                  <input type="number" id="phone" name="name" class="form-control" placeholder="e.g. 081 000 0000" />
+                </div>
                 <label for="email" class="form-label">Email address:</label>
                 <div class="input-group mb-4">
                   <span class="input-group-text">
@@ -252,20 +257,15 @@
                   <input type="text" id="email" name="name" class="form-control" placeholder="e.g. alex@example.com" />
                 </div>
                 
-                <label for="subject" class="form-label">What is your enquiry?</label>
+                <label for="subject" class="form-label">Message</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="bi bi-chat-right-dots-fill text-secondary"></i>
-                  </span>
-                  <select class="form-select" id="subject" name="name" >
-                    <option value="pricing" selected>Pricing query</option>
-                    <option value="content">Content query</option>
-                    <option value="other">Other query</option>
-                  </select>
-                </div>
-                <div class="mb-4 mt-5 form-floating">
-                  <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
-                  <label for="query">Your query...</label>
+                  </span>            
+                <!-- </div> -->
+                <!-- <div class="mb-4 mt-5 form-floating"> -->
+                  <textarea class="form-control" id="query" style="height: 140px" placeholder="Type here..."></textarea>
+                  <!-- <label for="query">Ty</label> -->
                 </div>
                 <div class="mb-4 text-center">
                   <button type="submit" class="btn btn-secondary">Send Message</button>
